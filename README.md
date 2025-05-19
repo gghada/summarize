@@ -29,3 +29,29 @@ A simple desktop application that summarizes academic PDF papers into concise bu
 
 ```bash
 git clone https://github.com/gghada/summarize.git
+```
+
+### 2. Set up a virtual environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### 3. Install the dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Set your API key
+
+```bash
+DEEPSEEK_API_KEY = 'sk-or-...your-api-key...'
+```
+
+### 5. Run the app
+
+```bash
+python summarizer.py
+```
